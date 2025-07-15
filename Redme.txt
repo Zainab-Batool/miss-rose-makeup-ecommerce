@@ -1,0 +1,26 @@
+*************************
+--------------Instrcution before execute this project install xampp----------------------------
+After go to database folder where sql file present import this file 
+to your mysql database in your system.
+
+
+---------------Create Database Name-------------------------
+database name must be= miss_rose_store
+
+
+
+-----------------------------------------------------------------
+-------- login using admin crediantial---------------------------
+Email: admin@missrose.com
+Password: password 
+
+
+
+--------provide link useful for you------------------
+http://localhost/miss-rose-store/
+http://localhost/miss-rose-store/login.php
+http://localhost/miss-rose-store/admin/dashboard.php
+
+*******************************************
+
+

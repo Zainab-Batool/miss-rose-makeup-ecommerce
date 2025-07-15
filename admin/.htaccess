@@ -1,0 +1,25 @@
+RewriteEngine On
+RewriteBase /miss-rose-store/admin/
+
+# Redirect index to dashboard
+RewriteRule ^$ dashboard.php [L]
+
+# Prevent directory listing
+Options -Indexes
+
+# Protect this directory
+AuthType Basic
+AuthName "Admin Area"
+Require valid-user
+
+# Additional security
+<FilesMatch "\.(php|htaccess|txt)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# PHP settings for admin area
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 300
+php_value max_input_time 300 
